@@ -1,0 +1,90 @@
+
+/*
++----------------------------------------------------------------+
+	Slideshow
++----------------------------------------------------------------+
+*/
+
+.slider {
+  margin: 0 auto;
+  width: 960px
+}
+
+.slider-container {
+  height: 425px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;;
+}
+
+.slider-container .slider-wrapper {
+	width:960px;
+	margin:0 auto;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 5000em; /*Fix for prevent display errors*/
+  -webkit-transition: all 800ms ease;
+  -moz-transition: all 800ms ease;
+  -o-transition: all 800ms ease;
+  transition: all 800ms ease;
+  margin-left: 42px
+}
+
+.slider-container .slide {
+  float: left;
+  height: 425px;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+ 
+}
+
+.slide img{
+	width:880px;
+	height: 360px;
+	 border: 5px solid #fff;
+}
+.slider-nav {
+  text-align: center;
+  width: 880px;
+  margin:0 auto;
+  padding:0;
+  margin-top: -36px;
+  /*! border: 2px solid #000; */
+}
+
+.slider-nav li {
+  display: inline;
+  padding: 5px;
+}
+
+.slider-nav .bullet {
+  background-color: #333333;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: -9000px;
+  overflow: hidden;
+  height: 10px;
+  width: 10px;
+  margin-bottom: 2px;
+}
+
+.slider-nav .active {
+	background-color: transparent; border: 1px solid #333333;
+}
+.slider-nav .prev,
+.slider-nav .next {
+  background: url('../img/sprite.png') no-repeat;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: -9000px;
+  height: 15px;
+  width: 15px;
+}
+
+.slider-nav .next { background-position: -9px -1px; }
+.slider-nav .prev { background-position: 0px -1px; }

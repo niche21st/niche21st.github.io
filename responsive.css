@@ -1,0 +1,454 @@
+/*		Default Layout
+		
+------------------------------------------------------------------------
+*/
+.selectnav{
+	display:none;
+}
+.img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.container{
+	width:95%;
+}
+#sm {
+    margin-left: -11%;
+	height: 45px;
+}
+#sm ul .linkedin a{
+	background-size: 85% 85%;	
+}
+#sm ul .linkedin a{
+	background-size: 85% 85%;	
+}
+#sm ul .linkedin:hover a{
+	background-size: 85% 85%;	
+}
+#sm ul .tw a{
+	background-size: 85% 85%;	
+}
+#sm ul .tw:hover a{
+	background-size: 85% 85%;	
+}
+#sm ul .pin a{
+	background-size: 85% 85%;	
+}
+#sm ul .pin:hover a{
+	background-size: 85% 85%;	
+}
+#sm ul .gplus a{
+	background-size: 85% 85%;	
+}
+#sm ul .gplus:hover a{
+	background-size: 85% 85%;	
+}
+#sm ul .rss a{
+	background-size: 85% 85%;	
+}
+#sm ul .rss:hover a{
+	background-size: 85% 85%;	
+}
+.selectnav{
+	display:inline-block;
+}
+.srch input[type="text"] {
+    margin-left: 10px;
+}
+.slider{
+	padding-right: 28%;
+}
+.slider-container .slider-wrapper {
+	margin-left: 24px;
+}
+
+.slide img{
+	width:670px;
+	height: 350px;
+}
+.slider-nav {
+    width: 707px;
+}
+#content{
+   width:65%;
+   margin-right:4%;
+}
+.single_column a img {
+    margin: 4px;
+    padding: 5px 0px 5px 0px;
+    max-width: 25%;
+}
+.single_column h4 {
+    font-size: 1.2rem;
+}
+.single_column p {
+    font-size: 1rem;
+}
+#sidebar{
+	width:30%
+}
+
+.header_bottom ul {
+display:none
+}
+.menu a{
+	padding-right:5%;
+}
+.menu input[type="text"] {
+	margin-left:13px;
+}
+.project_title{
+	max-width:23%;
+}
+.project_title p {
+    font-size: 1rem;
+}
+.footer h8{
+	font-size:90%;
+}
+.footer p{
+	font-size:90%;
+}
+.footer h9{
+	font-size:90%;
+}
+input{
+	font-size:85%;
+}
+.footer_bottom p{
+	font-size:85%;
+}
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.container{
+	width:96%;
+}
+header .logo {
+	
+}
+#sm {
+    position: fixed;
+    width: 100px;
+	background:transparent;
+	margin-left: 28%;
+	margin-top: 1%;
+}
+#sm ul .linkedin a{
+	background-size: 75% 75%;	
+}
+#sm ul .linkedin a{
+	background-size: 75% 75%;	
+}
+#sm ul .linkedin:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .tw a{
+	background-size: 75% 75%;	
+}
+#sm ul .tw:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .pin a{
+	background-size: 75% 75%;	
+}
+#sm ul .pin:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .gplus a{
+	background-size: 75% 75%;	
+}
+#sm ul .gplus:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .rss a{
+	background-size: 75% 75%;	
+}
+#sm ul .rss:hover a{
+	background-size: 75% 75%;	
+}
+
+.selectnav {
+    display: inline-block;
+    width: 75%;
+    font-size: 0.75rem;
+}
+.header_bottom span {
+    color: #999999;
+    padding-left: 0;
+    font-size: 0.6rem;
+}
+.menu a{
+	font-size:9px;
+}
+.srch input[type="text"] {
+    margin-left: 10px;
+}
+.slider{
+	display:none;
+}
+#content{
+   width:100%;
+}
+.single_column a img {
+    margin: 4px;
+    padding: 5px 0px 5px 0px;
+    max-width: 25%;
+}
+#sidebar{
+	width:100%
+}
+#slider_wrapper{
+	display:none;
+}
+#header{
+	text-align:center;
+}
+	
+		
+	#nav{
+	display:none;
+}
+.imgp_wrap img{
+    width: 98%;
+	height:auto;
+}	
+.single_column {
+	width:75%;
+	border-bottom:1px dashed #ddd;
+}
+.single_column:last-child {
+	border-bottom:none;
+}
+.single_column a img {
+    margin: 2px;
+    padding: 3px 0px 3px 0px;
+    width: 25%;
+    height: auto;
+}	
+.single_column h4 {
+	font-size:1rem;
+}
+.single_column p {
+    font-size: 0.8rem;
+}
+.project_title{
+	width:100%;
+	border-bottom: 1px solid #ddd;
+}	
+.project_title:last-of-type{
+	border-bottom: none;
+}	
+.project_title h7 {
+    font-size: 1.1rem;
+}
+.project_title p {
+    font-size: 0.8rem;
+}
+.footer h8{
+	font-size:75%;
+}
+.footer p{
+	font-size:75%;
+}
+.footer h9{
+	font-size:85%;
+}
+input{
+	font-size:75%;
+}
+.footer_bottom p{
+	font-size:75%;
+}
+
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+#sm {
+	width:auto;
+	background:transparent;
+	margin-left: -4%;
+	margin-top: 1%;
+}
+#sm ul .linkedin a{
+	background-size: 75% 75%;	
+}
+#sm ul .linkedin a{
+	background-size: 75% 75%;	
+}
+#sm ul .linkedin:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .tw a{
+	background-size: 75% 75%;	
+}
+#sm ul .tw:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .pin a{
+	background-size: 75% 75%;	
+}
+#sm ul .pin:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .gplus a{
+	background-size: 75% 75%;	
+}
+#sm ul .gplus:hover a{
+	background-size: 75% 75%;	
+}
+#sm ul .rss a{
+	background-size: 75% 75%;	
+}
+#sm ul .rss:hover a{
+	background-size: 75% 75%;	
+}
+
+.header_bottom span {
+    font-size: 0.75rem;
+}
+.selectnav {
+    display: inline-block;
+    width: 80%;
+    font-size: 0.85rem;
+}
+.container{
+	width:96%;
+}
+.menu input[type="text"] {
+    margin-left: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 5px;
+    font-size: 8px;
+}
+.menu input[type="submit"] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 8px;
+}
+#slider_wrapper{
+	display:none;
+}
+.slider{
+	display:none;
+}
+#content{
+   width:100%;
+}
+#sidebar{
+	width:100%
+}
+
+#header{
+	text-align:center;
+}
+#nav{
+	display:none;
+}
+.single_column {
+	width:75%;
+	border-bottom:1px dashed #ddd;
+}
+.single_column:last-child {
+	border-bottom:none;
+}
+.single_column a img {
+    margin: 4px;
+    padding: 5px 0px 5px 0px;
+    max-width: 25%;
+}
+.single_column h4 {
+	font-size:1rem;
+}
+.single_column p {
+    font-size: .7rem;
+}
+.project_title{
+	width:100%;
+	border-bottom: 1px solid #ddd;
+}
+.project_title:last-of-type{
+	border-bottom: none;
+}	
+.project_title h7 {
+    font-size: 1.1rem;
+}
+.project_title p {
+    font-size: 0.8rem;
+}
+.footer h8{
+	font-size:75%;
+}
+.footer p{
+	font-size:75%;
+}
+.footer h9{
+	font-size:85%;
+}
+input{
+	font-size:75%;
+}
+.footer_bottom p{
+	font-size:75%;
+}
+}
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
