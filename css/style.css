@@ -239,6 +239,7 @@ font-size: 12px;
 .slider{
 	background:#F2F2F2;
 	padding-top:45px;
+	margin-left: -1.6%;
 }
 
 .theme-dark.slider-wrapper{
